@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bella Tavola | Authentic Italian Cuisine</title>
+  
+  <!-- Google Fonts: Poppins (Headings) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./Style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="header">
+    <div class="nav-container">
+      <a href="#home" class="logo">Bella Tavola</a>
+      
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#reservation" class="nav-link">Reservation</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Bella Tavola</h1>
+      <p class="hero-subtitle">Authentic Italian Cuisine</p>
+      <a href="#reservation" class="btn btn-primary">Reserve a Table</a>
+    </div>
+  </section>
+
+  <!-- Main Content Wrapper -->
+  <main class="page-body">
+
+    <!-- Our Menu Section -->
+    <section id="menu" class="menu-section container">
+      <h2 class="section-title">Our Menu</h2>
+
+      <div class="menu-grid">
+        <!-- Column 1: Starters -->
+        <div class="menu-category">
+          <h3 class="category-title">Starters</h3>
+          <div class="menu-list">
+            
+            <div class="menu-item">
+              <img src="https://images.pexels.com/photos/5638527/pexels-photo-5638527.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Bruschetta" class="menu-item-img" />
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <span class="menu-item-name">Bruschetta</span>
+                  <span class="menu-item-price">$7.50</span>
+                </div>
+                <p class="menu-item-desc">Toasted bread with tomatoes, garlic and basil.</p>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <img src="https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Caesar Salad" class="menu-item-img" />
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <span class="menu-item-name">Caesar Salad</span>
+                  <span class="menu-item-price">$8.50</span>
+                </div>
+                <p class="menu-item-desc">Fresh lettuce, parmesan, caesar dressing.</p>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <img src="https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Tomato Soup" class="menu-item-img" />
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <span class="menu-item-name">Tomato Soup</span>
+                  <span class="menu-item-price">$6.50</span>
+                </div>
+                <p class="menu-item-desc">Classic tomato soup with fresh herbs.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Column 2: Main Courses -->
+        <div class="menu-category">
+          <h3 class="category-title">Main Courses</h3>
+          <div class="menu-list">
+
+            <div class="menu-item">
+              <img src="https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Grilled Chicken" class="menu-item-img" />
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <span class="menu-item-name">Grilled Chicken</span>
+                  <span class="menu-item-price">$14.50</span>
+                </div>
+                <p class="menu-item-desc">Served with vegetables and potatoes.</p>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <img src="https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Pasta Carbonara" class="menu-item-img" />
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <span class="menu-item-name">Pasta Carbonara</span>
+                  <span class="menu-item-price">$13.50</span>
+                </div>
+                <p class="menu-item-desc">Creamy sauce, pancetta, parmesan.</p>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <img src="https://images.pexels.com/photos/5638531/pexels-photo-5638531.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Risotto" class="menu-item-img" />
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <span class="menu-item-name">Risotto</span>
+                  <span class="menu-item-price">$13.00</span>
+                </div>
+                <p class="menu-item-desc">With mushrooms and herbs.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Column 3: Desserts -->
+        <div class="menu-category">
+          <h3 class="category-title">Desserts</h3>
+          <div class="menu-list">
+
+            <div class="menu-item">
+              <img src="https://images.pexels.com/photos/6880219/pexels-photo-6880219.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Tiramisu" class="menu-item-img" />
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <span class="menu-item-name">Tiramisu</span>
+                  <span class="menu-item-price">$6.50</span>
+                </div>
+                <p class="menu-item-desc">Classic Italian dessert with coffee.</p>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <img src="https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Cheesecake" class="menu-item-img" />
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <span class="menu-item-name">Cheesecake</span>
+                  <span class="menu-item-price">$5.50</span>
+                </div>
+                <p class="menu-item-desc">With berry sauce.</p>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <img src="https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Panna Cotta" class="menu-item-img" />
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <span class="menu-item-name">Panna Cotta</span>
+                  <span class="menu-item-price">$6.00</span>
+                </div>
+                <p class="menu-item-desc">With fresh berries.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section container">
+      <div class="about-card">
+        <div class="about-image-wrapper">
+          <img 
+            src="https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?auto=compress&cs=tinysrgb&w=800" 
+            alt="Bella Tavola Restaurant Interior" 
+            class="about-img" 
+          />
+        </div>
+        <div class="about-text-content">
+          <h2 class="about-heading">About Us</h2>
+          <p class="about-description">
+            Bella Tavola is a family-owned restaurant serving traditional Italian food made with fresh, local ingredients. Our goal is to bring authentic Italian flavors to every table.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Make a Reservation Section -->
+    <section id="reservation" class="reservation-section container">
+      <h2 class="section-title">Make a Reservation</h2>
+      
+      <form class="reservation-form" id="reservationForm">
+        <div class="form-row">
+          <div class="form-group">
+            <input 
+              type="text" 
+              name="name" 
+              id="resName" 
+              placeholder="Name" 
+              required 
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <input 
+              type="email" 
+              name="email" 
+              id="resEmail" 
+              placeholder="Email" 
+              required 
+              class="form-control"
+            />
+          </div>
+          <div class="form-group date-group">
+            <input 
+              type="date" 
+              name="date" 
+              id="resDate" 
+              required 
+              class="form-control"
+            />
+          </div>
+          <div class="form-group select-group">
+            <select name="guests" id="resGuests" required class="form-control">
+              <option value="" disabled selected hidden>Guests</option>
+              <option value="1">1 Guest</option>
+              <option value="2">2 Guests</option>
+              <option value="3">3 Guests</option>
+              <option value="4">4 Guests</option>
+              <option value="5">5 Guests</option>
+              <option value="6+">6+ Guests</option>
+            </select>
+          </div>
+        </div>
+        
+        <button type="submit" class="btn btn-primary btn-submit">Reserve</button>
+      </form>
+
+      <!-- Reservation status message -->
+      <div id="reservationStatus" class="reservation-status" style="display: none;"></div>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-container">
+      
+      <div class="footer-col brand-col">
+        <h3 class="footer-brand">Bella Tavola</h3>
+        <p class="footer-tagline">Good food. Good company.</p>
+      </div>
+
+      <div class="footer-col hours-col">
+        <h4 class="footer-heading">Opening Hours</h4>
+        <div class="hours-grid">
+          <span class="day">Monday - Friday:</span>
+          <span class="time">11:00 - 22:00</span>
+          
+          <span class="day">Saturday:</span>
+          <span class="time">12:00 - 23:00</span>
+          
+          <span class="day">Sunday:</span>
+          <span class="time">Closed</span>
+        </div>
+      </div>
+
+      <div class="footer-col location-col">
+        <h4 class="footer-heading">Location</h4>
+        <address class="footer-address">
+          Main Street 25<br>
+          Banja Luka<br>
+          Bosnia and Herzegovina
+        </address>
+      </div>
+
+    </div>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
